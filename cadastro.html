@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cadastro.css">
     <title>Document</title>
 </head>
 <body class="body">
@@ -19,14 +19,23 @@
             <section id="secao_titulo2">
                 <p>Refeitorio <br> Universitario </p> 
             </section>
-           
+         
         </div>
-        <div class="input">
+        <div class="conteiner__opcao">
+            <div class="opcao">
+                <button type="button" class="opcao__button" ><img src="imagem-biometria.png" class="imagem__cadastro" alt=""> Cadastrar</button>
+
+            </div>
+                
             
-                <input class="usuario" type="text" placeholder="usuário">
-                <input class="usuario" type="text" placeholder="senha">
-                <button type="submit" id="btn" onclick="window.location.href = 'cadastro.html'" >Login</button>
-            
+            <div class="opcao">
+                <button type="button" class="opcao__button"><img src="imagem-perfil.png" class="imagem__cadastro" alt="">Check-in</button>
+                
+            </div>
+        </div>
+        <div class="imagem_seta">
+            <button type="button" id="button_seta"><img src="logout.png" id="imagem__seta" alt=""></button>
+
         </div>
     </div>
 </body>

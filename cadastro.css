@@ -4,16 +4,17 @@
     display: flex;
     background-color: #32CD32;
     justify-content: center;
-    font-family:cursive
+    font-family:cursive;
 }
 .conteiner{
     background-color: #F0F8FF;
-    width: 35%;
+    width: 60%;
     height: 80%;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
     margin: 50px 0 0 0;
+    justify-content:space-between;
 
 }
 #img{
@@ -47,34 +48,55 @@
     background-color: #228B22;
     margin: 30px 0 0 0;
 }
-.input{
+
+.conteiner__opcao{
+ display: flex;
+ width: 100%;
+ margin: 0 0 160px;
+
+}
+.imagem__cadastro{
+    width: 85px;
+    height: 113px;
+    
+}
+.opcao{
+ 
     display: flex;
     flex-direction: column;
+    background-color: #228B22;
+    margin: 0 30px 0 30px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    align-items: center;
-    margin: 100px 0 0 0;
-}
-
-.usuario{
-    width: 70%;
-    margin: 15px 0 15px 0;
-    border-radius: 15px;
-    padding: 8px;
-    background-color: 	#D3D3D3;
-    border: none;
-}
-#btn{
-    width: 40%;
-    padding: 6px;
-    background-color: #228B22;
-    color: #FFFAFA;
-    font-size: 1.134em;
-    font-weight: bold;
     border-radius: 10px;
-    margin: 50px 0 0 0;
-    border: none;
+    
 }
-#btn:hover{
+.opcao__button{
+    background-color: #228B22;
+    border-radius: 10px;
+    width: 130px;
+    height: 140px;
+    align-self: center;
+    border-radius: 10px;
+}
+.opcao__button:hover{
+    cursor: pointer;
+}
+.imagem_seta{
+margin: 0 0 20px 40px;
+}
+#imagem__seta{
+    width: 55px;
+    height: 55px;
+    
+}
+#button_seta{
+    border-radius: 100px;
+    border: none;
+    width: 55px;
+    height: 55px;
+}
+#button_seta:hover{
     cursor: pointer;
 }
